@@ -16,5 +16,5 @@ generated_code = pipe(prompt,
                       num_return_sequences=1
                       )[0]['generated_text']
 
-print("Generated Python code-->")
+print("Generated Python code here-->")
 print(generated_code)  # output format: given prompt then generated code
